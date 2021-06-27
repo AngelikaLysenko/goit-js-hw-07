@@ -13,17 +13,22 @@
         color: #424242;
         line-height: 1.5;
       }
+      span{
+        color: green;
+        font-size: large;
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+      }
     </style>
   </head>
   <body>
     <p><a href="index.html">На главную</a></p>
 
-    <div id="counter">
-      <button type="button" data-action="decrement">-1</button>
-      <span id="value">0</span>
-      <button type="button" data-action="increment">+1</button>
+    <div class="js-value-btn" id="counter">
+      <button type="button" data-action="decrement">Уменьшить</button>
+      <span  id="value" class="js-value" >0</span>
+      <button type="button" data-action="increment">Увеличить</button>
     </div>
 
-    <script src="js/task-04.js" type="module"></script>
+    <script src="/js/task-04.js" type="module"></script>
   </body>
 </html>
